@@ -1,0 +1,41 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 121px;
+}
+
+.floating-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+
+    height: 88px;
+    width: 550px;
+    border-radius: 18px;
+
+    background-color: rgb(93, 93, 93);
+}
+
+.floating-nav a {
+    width: 154px;
+    padding: 19.5px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: 300ms background-color;
+}
+
+.floating-nav a:hover {
+    background-color: var(--purple);
+}
+
+.active {
+    background-color: var(--purple);
+    font-weight: 800;
+}
