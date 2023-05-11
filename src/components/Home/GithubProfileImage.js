@@ -57,7 +57,7 @@ const GithubProfileImage = () => {
 
    return (
       <div className={classes["github-profile-img"]}>
-         <h2>Sharon</h2>
+         <h2>Ali Jabar</h2>
          {content}
       </div>
    );
