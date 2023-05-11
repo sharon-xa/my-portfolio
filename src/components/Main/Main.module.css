@@ -1,0 +1,17 @@
+.main {
+    margin-top: 20px;
+}
+
+.cards-container {
+    margin-top: 40px;
+
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: start;
+
+}

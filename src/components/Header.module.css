@@ -16,7 +16,7 @@
     width: 550px;
     border-radius: 18px;
 
-    background-color: rgb(93, 93, 93);
+    background-color: var(--backgrounds);
 }
 
 .floating-nav a {
@@ -28,7 +28,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    transition: 300ms background-color;
+    transition: 200ms background-color;
 }
 
 .floating-nav a:hover {

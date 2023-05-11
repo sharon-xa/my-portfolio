@@ -1,0 +1,35 @@
+.github-profile-img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 380px;
+    width: auto;
+
+}
+
+.github-profile-img h2 {
+    color: var(--white);
+    font-weight: 800;
+    font-size: 48px;
+}
+
+
+
+.github-profile-img img {
+    border-radius: 50%;
+    height: 265px;
+    width: 265px;
+
+    border: 8px solid var(--purple);
+}
+
+.error-paragraph {
+    color: var(--white);
+}
+
+.is-loading {
+    color: var(--white);
+}

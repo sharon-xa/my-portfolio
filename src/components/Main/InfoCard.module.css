@@ -1,0 +1,49 @@
+.info-card {
+    /* background-color: var(--backgrounds); */
+    border-radius: 16px;
+    padding: 20px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.info-card code {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    letter-spacing: 1px;
+
+}
+
+.info-card code span {
+    width: 14px;
+    height: 30px;
+
+    background-color: var(--terminal);
+
+    animation: cursor-blink 1.5s ease infinite;
+}
+
+
+.info-card p {
+    color: white;
+    font-size: 24px;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
