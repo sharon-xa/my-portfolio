@@ -17,7 +17,7 @@
     width: 550px;
     border-radius: 18px;
 
-    background-color: var(--backgrounds);
+    background-color: var(--secondary-backgrounds);
     box-shadow: 0px 0px 50px 0px rgba(35, 35, 35, 0.89);
 }
 

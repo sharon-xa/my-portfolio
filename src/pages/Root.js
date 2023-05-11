@@ -7,9 +7,7 @@ function RootLayout() {
    return (
       <>
          <NavigationBar />
-         <main>
-            <Outlet />
-         </main>
+         <Outlet />
       </>
    );
 }

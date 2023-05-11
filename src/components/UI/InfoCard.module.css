@@ -28,8 +28,7 @@
 
 
 .info-card p {
-    color: white;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 @keyframes cursor-blink {
@@ -44,4 +43,16 @@
     100% {
         opacity: 0;
     }
+}
+
+.card-container {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: start;
+    align-self: flex-start;
 }
