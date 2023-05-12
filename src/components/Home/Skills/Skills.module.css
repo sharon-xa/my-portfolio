@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+}
+
+.iconAndText {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* .list {} */
+
+.iconAndText {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.list>li {
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 24px;
+    margin-bottom: 12px;
+
+}
+
+
+/*
+#62ffe1
+#0aaae5
+*/
