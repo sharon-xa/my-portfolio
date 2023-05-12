@@ -3,6 +3,7 @@ import classes from "./Main.module.css";
 import GithubProfileImage from "./GithubProfileImage";
 import InfoCard from "../UI/InfoCard";
 import Skills from "./Skills/Skills";
+// import ButtonMailto from "../Helpers/Mailto";
 
 const Main = () => {
    return (
@@ -22,7 +23,24 @@ const Main = () => {
                <Skills />
             </InfoCard>
 
-            <InfoCard commandUsed="cat" path="/home/ali/Socials.txt"></InfoCard>
+            <InfoCard commandUsed="cat" path="/home/ali/Socials.txt">
+               {/* <div className={classes.socials}>
+                  <div className={classes.github}>
+                     Email:&nbsp;
+                     <ButtonMailto
+                        label="ali93456@gmail.com"
+                        mailto="mailto:ali93456@gmail.com"
+                     />
+                  </div>
+                  <div className={classes.email}>
+                     Email:&nbsp;
+                     <ButtonMailto
+                        label="ali93456@gmail.com"
+                        mailto="mailto:ali93456@gmail.com"
+                     />
+                  </div>
+               </div> */}
+            </InfoCard>
          </section>
       </main>
    );
