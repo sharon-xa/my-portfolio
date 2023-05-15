@@ -1,6 +1,6 @@
 import classes from "./AboutMe.module.css";
 import InfoCard from "../UI/InfoCard";
-import Mailto from "../../Helpers/Mailto";
+import Mailto from "../../helpers/Mailto";
 
 const AboutMe = () => {
    return (
