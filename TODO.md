@@ -1,8 +1,10 @@
 # TODO LIST
 
--  in the `GithubProfileImage.js` file I have some problems (the fetching process is being repeated).
+-  **HOME Page** => in the `GithubProfileImage.js` file I have some problems (the fetching process is being repeated).
    we should fetch the image with a seprate loader.
 
--  maybe a sticky navbar
+-  **PROJECTS Page** => a modal to show off the picture of the website
 
--  light mode?
+-  maybe a sticky navbar?
+
+-  a light mode?
