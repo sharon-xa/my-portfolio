@@ -1,9 +1,9 @@
 .nav-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 
-    height: 121px;
+    height: 110px;
     text-align: center;
 }
 
@@ -17,8 +17,8 @@
     width: 550px;
     border-radius: 18px;
 
-    background-color: var(--secondary-backgrounds);
-    box-shadow: 0px 0px 50px 0px rgba(35, 35, 35, 0.89);
+    background-color: var(--secondary-background);
+    box-shadow: 0px 0px 60px 0px rgba(29, 29, 29, 0.89);
 }
 
 .floating-nav a {
@@ -34,10 +34,10 @@
 }
 
 .floating-nav a:hover {
-    background-color: var(--purple);
+    background-color: var(--accent-color);
 }
 
 .active {
-    background-color: var(--purple);
+    background-color: var(--accent-color);
     font-weight: 800;
 }

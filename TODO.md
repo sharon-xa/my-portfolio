@@ -1,4 +1,8 @@
 # TODO LIST
 
 -  in the `GithubProfileImage.js` file I have some problems (the fetching process is being repeated).
--  in the `Skills.js` file we have to much code that should be reduced with a custom hook.
+   we should fetch the image with a seprate loader.
+
+-  maybe a sticky navbar
+
+-  light mode?

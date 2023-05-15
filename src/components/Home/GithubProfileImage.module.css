@@ -26,7 +26,7 @@
     height: 265px;
     width: 265px;
 
-    border: 8px solid var(--purple);
+    border: 8px solid var(--accent-color);
 }
 
 .error-paragraph {

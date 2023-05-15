@@ -1,17 +1,16 @@
 import classes from "./Skills.module.css";
 import { FaHtml5 } from "react-icons/fa";
+import Skill from "./Skill";
 
-import CssSkills from "./CssSkills";
-import JavascriptSkills from "./JavascriptSkills";
-import LibrariesAndFramworks from "./LibrariesAndFramworks";
-import OtherSkills from "./OtherSkills";
+import {
+   cssSkills,
+   javaScriptSkills,
+   librariesSkills,
+   otherSkills,
+} from "./skillsData";
 
+const ICON_SIZE = 30;
 const Skills = () => {
-   const ICON_SIZE = 30;
-   const NESTED_ICON_SIZE = 25;
-
-   // make a custom hooke for the skills to remove the duplication
-
    return (
       <ul className={classes.list}>
          <li>
@@ -20,16 +19,13 @@ const Skills = () => {
                &ensp; HTML5.html
             </div>
          </li>
-         <CssSkills iconSize={ICON_SIZE} nestedIconSize={NESTED_ICON_SIZE} />
-         <JavascriptSkills
-            iconSize={ICON_SIZE}
-            nestedIconSize={NESTED_ICON_SIZE}
+         <Skill folderTitle="CSS3" skillsFiles={cssSkills} />
+         <Skill folderTitle="JavaScript" skillsFiles={javaScriptSkills} />
+         <Skill
+            folderTitle="LibrariesAndFramworks"
+            skillsFiles={librariesSkills}
          />
-         <LibrariesAndFramworks
-            iconSize={ICON_SIZE}
-            nestedIconSize={NESTED_ICON_SIZE}
-         />
-         <OtherSkills iconSize={ICON_SIZE} nestedIconSize={NESTED_ICON_SIZE} />
+         <Skill folderTitle="OtherSkills" skillsFiles={otherSkills} />
       </ul>
    );
 };

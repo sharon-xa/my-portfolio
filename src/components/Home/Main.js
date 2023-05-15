@@ -3,7 +3,6 @@ import classes from "./Main.module.css";
 import GithubProfileImage from "./GithubProfileImage";
 import InfoCard from "../UI/InfoCard";
 import Skills from "./Skills/Skills";
-// import ButtonMailto from "../Helpers/Mailto";
 
 const Main = () => {
    return (
@@ -13,9 +12,11 @@ const Main = () => {
 
             <InfoCard commandUsed="cat" path="/etc/motd">
                <p>
-                  Hey, welcome to my portfolio !<br /> My name is Ali Jabar, I'm
-                  a front-end web developer a computer science student, almost a
-                  graduate.
+                  <span className={classes.welcome}>
+                     Hey, welcome to my portfolio !
+                  </span>
+                  <br /> My name is Ali Jabar, I'm a front-end web developer a
+                  computer science student, almost a graduate.
                </p>
             </InfoCard>
 
@@ -23,24 +24,7 @@ const Main = () => {
                <Skills />
             </InfoCard>
 
-            <InfoCard commandUsed="cat" path="/home/ali/Socials.txt">
-               {/* <div className={classes.socials}>
-                  <div className={classes.github}>
-                     Email:&nbsp;
-                     <ButtonMailto
-                        label="ali93456@gmail.com"
-                        mailto="mailto:ali93456@gmail.com"
-                     />
-                  </div>
-                  <div className={classes.email}>
-                     Email:&nbsp;
-                     <ButtonMailto
-                        label="ali93456@gmail.com"
-                        mailto="mailto:ali93456@gmail.com"
-                     />
-                  </div>
-               </div> */}
-            </InfoCard>
+            <InfoCard commandUsed="exit" path=""></InfoCard>
          </section>
       </main>
    );

@@ -6,25 +6,17 @@ ul {
     height: 40px;
     display: flex;
     align-items: center;
+    font-size: 22px;
 }
 
-/* .list {} */
+.list li {
+    font-size: 22px;
 
-.iconAndText {
-    height: 40px;
-    display: flex;
-    align-items: center;
 }
 
 .list>li {
-    /* display: flex; */
-    /* align-items: center; */
-    font-size: 22px;
+
+    font-size: 26px;
     margin-bottom: 16px;
+
 }
-
-
-/*
-#62ffe1
-#0aaae5
-*/

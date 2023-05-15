@@ -2,11 +2,13 @@
 
 :root {
   --background: #2d2f2d;
-  --secondary-backgrounds: #555555;
-  --purple: #8a34da;
-  --old-purple: #9c46eb;
+  --secondary-background: #555555;
+  --accent-color: #8a34da;
+  --old-purple: #791fcd;
   --white: #eee;
   --terminal: #41e421;
+  --folder: #0aaae5;
+  --file: #62ffe1;
 }
 
 * {
@@ -14,7 +16,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 body {
@@ -27,16 +29,24 @@ a {
   color: var(--white);
 }
 
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*
 
-#F2D8BC
-#FFE7CF
-#F02323
 #151515
-#30AD37
-#98D528
+#F02323
 #8a34da
 #9c46eb
+#30AD37
+#98D528
+#F2D8BC
+#FFE7CF
 
 */

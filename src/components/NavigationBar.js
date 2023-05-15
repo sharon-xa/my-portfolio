@@ -16,7 +16,7 @@ const NavigationBar = () => {
                Home
             </NavLink>
             <NavLink
-               to="/projects"
+               to="projects"
                className={({ isActive }) =>
                   isActive ? classes.active : undefined
                }
@@ -25,7 +25,7 @@ const NavigationBar = () => {
                Projects
             </NavLink>
             <NavLink
-               to="/about-me"
+               to="about-me"
                className={({ isActive }) =>
                   isActive ? classes.active : undefined
                }
