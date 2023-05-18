@@ -8,7 +8,7 @@ import ReduxStore from "../../assets/Redux_store_1.png";
 const allMyProjects = [
    {
       id: "p1",
-      name: "Bankist website project",
+      name: "Bankist website",
       image: BankistWebsite,
       description:
          "A bank website to showcase the services that the bank is providing for the costumers and other things.",
@@ -17,7 +17,7 @@ const allMyProjects = [
    },
    {
       id: "p2",
-      name: "Bankist application project",
+      name: "Bankist application",
       image: Bankist,
       description:
          "This is a banking application you can use it to deposite money, send money or ask for a loan.",
@@ -26,7 +26,7 @@ const allMyProjects = [
    },
    {
       id: "p3",
-      name: "Mapty project",
+      name: "Mapty",
       image: Mapty,
       description:
          "A running and cycling application for people how loves running, It's a workout planner, you can open the app choose a location and set some info about the workout then pin that workout to the map.",
@@ -35,7 +35,7 @@ const allMyProjects = [
    },
    {
       id: "p4",
-      name: "Forkify project",
+      name: "Forkify",
       image: Forkify,
       description:
          "You can use this website to get a recipe about any kind of food you want, and if you liked the recipe you can bookmark it.",
