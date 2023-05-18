@@ -23,8 +23,8 @@ const Projects = () => {
                         <div className={classes.links}>
                            <a
                               href={project.demoLink}
-                              // target="_blank"
-                              // rel="noreferrer"
+                              target="_blank"
+                              rel="noreferrer"
                            >
                               Live Demo
                            </a>
