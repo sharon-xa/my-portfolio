@@ -4,11 +4,11 @@ import GithubProfileImage from "./GithubProfileImage";
 import InfoCard from "../UI/InfoCard";
 import Skills from "./Skills/Skills";
 
-const Main = () => {
+const Main = ({ imageSrc }) => {
    return (
       <main className={classes["home-layout"]}>
          <section className={classes.section}>
-            <GithubProfileImage />
+            <GithubProfileImage imageSrc={imageSrc} />
 
             <InfoCard commandUsed="cat" path="/etc/motd">
                <p>

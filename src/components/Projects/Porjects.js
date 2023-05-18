@@ -13,7 +13,7 @@ const Projects = () => {
                if (!project.image) return null;
                else
                   return (
-                     <div className={classes.box}>
+                     <div className={classes.box} key={project.id}>
                         <img src={project.image} alt={project.name} />
 
                         <div className={classes.info}>

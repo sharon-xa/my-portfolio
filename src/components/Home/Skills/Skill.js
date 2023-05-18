@@ -12,7 +12,7 @@ const Skill = (props) => {
          </div>
          <ul className={classes.nestedList}>
             {skillsFiles.map((file) => (
-               <li>
+               <li key={file.id}>
                   <div className={classes.iconAndText}>
                      &emsp;&emsp;
                      {file.icon}

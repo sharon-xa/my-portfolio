@@ -1,11 +1,7 @@
 import AboutMe from "../components/About/AboutMe";
 
 const About = () => {
-   return (
-      <>
-         <AboutMe />
-      </>
-   );
+   return <AboutMe />;
 };
 
 export default About;

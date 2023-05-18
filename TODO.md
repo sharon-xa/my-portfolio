@@ -1,9 +1,10 @@
 # TODO LIST
 
--  **HOME Page** => in the `GithubProfileImage.js` file I have some problems (the fetching process is being repeated).
-   we should fetch the image with a seprate loader.
-
 -  **PROJECTS Page** => a modal to show off the picture of the website
+
+-  **PROJECTS Page** => i should show the name of the project
+
+-  **PROJECTS Page** => live demo not working
 
 -  maybe a sticky navbar?
 

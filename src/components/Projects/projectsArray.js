@@ -7,6 +7,7 @@ import ReduxStore from "../../assets/Redux_store_1.png";
 
 const allMyProjects = [
    {
+      id: "p1",
       name: "Bankist application project",
       image: Bankist,
       description:
@@ -15,6 +16,7 @@ const allMyProjects = [
       demoLink: "#",
    },
    {
+      id: "p2",
       name: "Bankist website project",
       image: BankistWebsite,
       description:
@@ -23,6 +25,7 @@ const allMyProjects = [
       demoLink: "#",
    },
    {
+      id: "p3",
       name: "Mapty project",
       image: Mapty,
       description:
@@ -31,6 +34,7 @@ const allMyProjects = [
       demoLink: "#",
    },
    {
+      id: "p4",
       name: "Forkify project",
       image: Forkify,
       description:
@@ -39,6 +43,7 @@ const allMyProjects = [
       demoLink: "#",
    },
    {
+      id: "p5",
       name: "Food Order App",
       image: FoodOrder,
       description:
@@ -47,6 +52,7 @@ const allMyProjects = [
       demoLink: "#",
    },
    {
+      id: "p6",
       name: "ReduxStore",
       image: ReduxStore,
       description:

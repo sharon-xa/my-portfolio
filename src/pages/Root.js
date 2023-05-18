@@ -1,7 +1,5 @@
-import { Outlet } from "react-router-dom";
-
 import NavigationBar from "../components/NavigationBar";
-// import classes from "./Root.module.css";
+import { Outlet } from "react-router-dom";
 
 function RootLayout() {
    return (
