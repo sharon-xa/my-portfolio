@@ -18,7 +18,7 @@
 
 
     background-color: var(--secondary-background);
-    box-shadow: 0px 0px 60px 0px rgba(29, 29, 29, 0.89);
+    box-shadow: 0px 0px 60px 0px var(--shadow);
 }
 
 .floating-nav a {

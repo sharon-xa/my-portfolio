@@ -14,7 +14,7 @@ const AboutMe = () => {
                </p>
             </InfoCard>
 
-            <InfoCard commandUsed="cat" path="/home/ali/hobbiesAndPassion.txt">
+            <InfoCard commandUsed="cat" path="/home/ali/Passion.txt">
                <p>
                   I love programming and lots of other things too, such as
                   music, movies and maybe some gaming from time to time.

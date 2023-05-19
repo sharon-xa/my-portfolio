@@ -11,12 +11,10 @@ const Main = ({ imageSrc }) => {
             <GithubProfileImage imageSrc={imageSrc} />
 
             <InfoCard commandUsed="cat" path="/etc/motd">
+               <p className={classes.welcome}>Hey, welcome to my portfolio !</p>
                <p>
-                  <span className={classes.welcome}>
-                     Hey, welcome to my portfolio !
-                  </span>
-                  <br /> My name is Ali Jabar, I'm a front-end web developer a
-                  computer science student, almost a graduate.
+                  My name is Ali Jabar, I'm a front-end web developer a computer
+                  science student, almost a graduate.
                </p>
             </InfoCard>
 

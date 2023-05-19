@@ -45,6 +45,9 @@ whitespace:
   --folder: #0aaae5;
   --file: #62ffe1;
 
+  /* shadows */
+  --shadow: rgba(26, 26, 26, 0.911);
+
   /* font sizes */
   --fs-100: 1.2rem;
   --fs-200: 1.6rem;

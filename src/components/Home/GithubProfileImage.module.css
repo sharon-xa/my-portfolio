@@ -29,6 +29,7 @@
     width: 265px;
 
     border: 8px solid var(--accent-color);
+    box-shadow: 0px 0px 60px 0px var(--shadow);
 }
 
 .error-paragraph {
