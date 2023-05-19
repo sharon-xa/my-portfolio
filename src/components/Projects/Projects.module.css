@@ -21,10 +21,12 @@
 
 .headerBox {
     align-self: self-start;
+    width: 100%;
 }
 
 .footerBox {
     align-self: self-start;
+    width: 100%;
 }
 
 .box {

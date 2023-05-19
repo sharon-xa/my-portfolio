@@ -23,7 +23,7 @@
 
 .floating-nav a {
     font-size: var(--fs-300);
-    width: 154px;
+    /* width: 154px; */
     padding: 1em;
     margin: 0.8em 0;
     border-radius: 10px;
@@ -42,4 +42,74 @@
 .active {
     background-color: var(--accent-color);
     font-weight: 800;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .nav-container {
+        width: 100%;
+    }
+
+    .floating-nav {
+        gap: .3em;
+
+        width: 95%;
+        padding: 0 1em;
+        margin-top: .6em;
+        border-radius: 10px;
+    }
+
+    .floating-nav a {
+        font-size: var(--fs-100);
+
+        width: 33%;
+        padding: 1em 0;
+        border-radius: 6px;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .floating-nav {
+        gap: .3em;
+
+        width: 70%;
+        padding: 0 1em;
+        margin-top: 1em;
+        border-radius: 16px;
+    }
+
+    .floating-nav a {
+        font-size: var(--fs-200);
+
+        width: 33%;
+        padding: 1.1em 0;
+        border-radius: 10px;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 830px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .floating-nav {
+        gap: 1.3em;
+
+        width: 550px;
+        margin-top: 1.2em;
+        border-radius: 18px;
+
+    }
+
+    .floating-nav a {
+        font-size: var(--fs-300);
+        width: 150px;
+        padding: 1em;
+        margin: 0.8em 0;
+        border-radius: 10px;
+    }
 }
