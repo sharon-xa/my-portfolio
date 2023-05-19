@@ -1,5 +1,7 @@
 .github-profile-img {
 
+    align-self: center;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +18,7 @@
 .github-profile-img h2 {
     color: var(--white);
     font-weight: 800;
-    font-size: 48px;
+    font-size: var(--fs-xxl);
 }
 
 

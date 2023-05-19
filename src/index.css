@@ -1,14 +1,60 @@
+/*
+SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+     
+font weights
+
+
+line height
+  default: 1
+     
+FONT SIZE SYSTEM (px)
+  0 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+     
+     
+-- colors
+     
+  primary :#e67e22
+
+  tints:
+  shades: 
+  accents:
+  grays: #555
+      
+--shadows:
+
+--border radius:
+
+whitespace:
+  SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 :root {
+  /* colors */
   --background: #2d2f2d;
   --secondary-background: #555555;
   --accent-color: #8a34da;
-  --old-purple: #791fcd;
+  --dark-purple: #791fcd;
   --white: #eee;
   --terminal: #41e421;
   --folder: #0aaae5;
   --file: #62ffe1;
+
+  /* font sizes */
+  --fs-300: 1.8rem;
+  --fs-400: 2rem;
+  --fs-500: 2.2rem;
+  --fs-600: 2.4rem;
+  --fs-700: 2.6rem;
+  --fs-xl: 3.2rem;
+  --fs-xxl: 4.8rem;
+
+  /* spacing */
 }
 
 * {
@@ -19,7 +65,12 @@
   font-weight: 500;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   background-color: var(--background);
   color: var(--white);
 }

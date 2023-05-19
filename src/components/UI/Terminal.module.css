@@ -1,5 +1,5 @@
 .terminal-like-info {
     font-family: monospace;
-    font-size: 26px;
+    font-size: var(--fs-700);
     color: var(--terminal);
 }

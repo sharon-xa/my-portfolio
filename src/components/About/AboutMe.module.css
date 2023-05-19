@@ -1,11 +1,13 @@
 .section {
+    width: 50%;
+
     margin-top: 80px;
     margin-bottom: 50px;
-    width: 1080px;
+
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 
 .section a:hover {
