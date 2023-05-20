@@ -29,7 +29,7 @@ const allMyProjects = [
       name: "Mapty",
       image: Mapty,
       description:
-         "A running and cycling application for people how loves running, It's a workout planner, you can open the app choose a location and set some info about the workout then pin that workout to the map.",
+         "A running and cycling application for people who love running, It's a workout planner, you can open the app choose a location and set some info about the workout then pin that workout to the map.",
       codeLink: "https://github.com/sharonye0/Mapty",
       demoLink: "https://mapty-testing.netlify.app/",
    },

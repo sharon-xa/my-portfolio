@@ -6,23 +6,23 @@ import About from "./pages/About";
 import Error from "./pages/Error";
 
 function App() {
-   const router = createBrowserRouter([
-      {
-         path: "/",
-         element: <RootLayout />,
-         errorElement: <Error />,
-         children: [
-            { index: true, element: <HomePage />, loader: loader },
-            {
-               path: "projects",
-               element: <ProjectsPage />,
-            },
-            { path: "about-me", element: <About /> },
-         ],
-      },
-   ]);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <RootLayout />,
+      errorElement: <Error />,
+      children: [
+        { index: true, element: <HomePage />, loader: loader },
+        {
+          path: "projects",
+          element: <ProjectsPage />,
+        },
+        { path: "about-me", element: <About /> },
+      ],
+    },
+  ]);
 
-   return <RouterProvider router={router} />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
