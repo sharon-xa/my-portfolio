@@ -19,9 +19,6 @@
     text-decoration: none;
 }
 
-.section p {
-    margin-bottom: 10px;
-}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
