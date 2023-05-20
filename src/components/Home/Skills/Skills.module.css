@@ -22,16 +22,16 @@ ul {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .iconAndText {
-        font-size: var(--fs-400);
+        font-size: var(--fs-300);
     }
 
     .list li {
-        font-size: var(--fs-400);
+        font-size: var(--fs-300);
 
     }
 
     .list>li {
-        font-size: var(--fs-600);
+        font-size: var(--fs-500);
     }
 }
 
