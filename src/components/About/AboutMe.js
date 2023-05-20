@@ -15,19 +15,21 @@ const AboutMe = () => {
             </InfoCard>
 
             <InfoCard commandUsed="cat" path="/home/ali/Passion.txt">
-               <p>
+               <p className={classes.passion}>
                   I love programming and lots of other things too, such as
                   music, movies and maybe some gaming from time to time.
-                  <br />
-                  <br />
+               </p>
+               <p className={classes.passion}>
                   I'm very passionate when it comes to technology, I'm trying to
                   get a job yet still wanna contribute to open source projects,
                   cuz i love the open source community.
-                  <br />
-                  <br />I use linux as my operating system, EndeavourOS is my
-                  main distro (I use ARCH BTW).
-                  <br />
-                  <br />I really love learning new things like Data Structure,
+               </p>
+               <p className={classes.passion}>
+                  I use linux as my operating system, EndeavourOS is my main
+                  distro (I use ARCH BTW).
+               </p>
+               <p className={classes.passion}>
+                  I really love learning new things like Data Structure,
                   Algorithms, Math and Ui/Ux design, and other things.
                </p>
             </InfoCard>

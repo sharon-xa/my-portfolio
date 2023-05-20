@@ -20,6 +20,14 @@
 }
 
 
+.passion {
+    padding-bottom: .8em;
+}
+
+.socials p {
+    padding-bottom: .3em;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .section {
