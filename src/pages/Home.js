@@ -15,7 +15,10 @@ export async function loader() {
    const response = await fetch("https://api.github.com/users/sharonye0");
 
    if (!response.ok) {
-      throw json({ message: "Could not fetch image." }, { status: 500 });
+      throw json(
+         { message: "Could not fetch image." },
+         { status: response.status }
+      );
    } else {
       return response;
    }

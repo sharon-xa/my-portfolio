@@ -1,9 +1,9 @@
-import Bankist from "../../assets/Bankist_2.png";
-import BankistWebsite from "../../assets/Bankist_website_1.png";
-import Mapty from "../../assets/Mapty_1.png";
-import Forkify from "../../assets/Forkify_2.png";
-import FoodOrder from "../../assets/FoodOrderApp_1.png";
-import ReduxStore from "../../assets/Redux_store_1.png";
+import Bankist from "../../assets/Bankist_2.webp";
+import BankistWebsite from "../../assets/Bankist_website_2.webp";
+import Mapty from "../../assets/Mapty_1.webp";
+import Forkify from "../../assets/Forkify_2.webp";
+import FoodOrder from "../../assets/FoodOrderApp_1.webp";
+import ReduxStore from "../../assets/Redux_store_1.webp";
 
 const allMyProjects = [
    {
