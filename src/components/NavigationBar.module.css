@@ -23,7 +23,6 @@
 
 .floating-nav a {
     font-size: var(--fs-300);
-    /* width: 154px; */
     padding: 1em;
     margin: 0.8em 0;
     border-radius: 10px;

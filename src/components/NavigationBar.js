@@ -33,6 +33,15 @@ const NavigationBar = () => {
             >
                About Me
             </NavLink>
+            {/* <NavLink
+               to="about-me"
+               className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+               }
+               end
+            >
+               Settings
+            </NavLink> */}
          </nav>
       </nav>
    );

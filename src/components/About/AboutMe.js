@@ -1,6 +1,5 @@
 import classes from "./AboutMe.module.css";
 import InfoCard from "../UI/InfoCard";
-import Mailto from "../../helpers/Mailto";
 
 const AboutMe = () => {
    return (
@@ -56,9 +55,7 @@ const AboutMe = () => {
                   </p>
                   <p className={classes.email}>
                      Email:&nbsp;
-                     <Mailto email="ali93456@gmail.com" subject="" body="">
-                        ali93456@gmail.com
-                     </Mailto>
+                     <a href="mailto:ali93456@gmail.com">ali93456@gmail.com</a>
                   </p>
                </div>
             </InfoCard>

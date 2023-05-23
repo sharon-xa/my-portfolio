@@ -5,7 +5,13 @@ const GithubProfileImage = ({ imageSrc }) => {
    return (
       <div className={classes["github-profile-img"]}>
          <h2>Ali Jabar</h2>
-         <img src={imageSrc} alt="my github profile pic" />
+         <a
+            href="https://github.com/sharonye0"
+            target="_blank"
+            rel="noreferrer"
+         >
+            <img src={imageSrc} alt="my github profile pic" />
+         </a>
       </div>
    );
 };
