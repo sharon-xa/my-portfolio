@@ -13,7 +13,20 @@
 .section .welcome {
     font-size: var(--fs-xl);
     font-weight: 700;
+
+    animation: textGlowing 2s linear 0s infinite alternate;
 }
+
+@keyframes textGlowing {
+    0% {
+        text-shadow: var(--welcome-glow-0);
+    }
+
+    100% {
+        text-shadow: var(--welcome-glow-100);
+    }
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

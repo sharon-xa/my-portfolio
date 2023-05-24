@@ -1,5 +1,5 @@
 .container {
-    margin-bottom: 1em;
+    margin-bottom: 1.4em;
 
     display: flex;
     justify-content: center;
@@ -18,6 +18,8 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+
+    box-shadow: var(--shadow);
 }
 
 .footer p {
@@ -46,7 +48,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #646464;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -58,13 +60,13 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(243, 243, 243);
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #202425;
 }
 
 input:focus+.slider {
