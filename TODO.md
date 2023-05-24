@@ -1,7 +1,7 @@
 # TODO LIST
 
--  **PROJECTS Page** => a modal to show off the picture of the website
-
 -  maybe a sticky navbar?
+
+-  a Footer with some info and a glow mode button
 
 -  a light mode or amoled dark maybe?

@@ -10,11 +10,14 @@ const Projects = () => {
 
    const showImageHandler = () => {
       setImageIsShown(true);
-      console.log("Test");
    };
 
    const hideImageHandler = () => {
       setImageIsShown(false);
+   };
+
+   const escapeKeyHandler = (event) => {
+      if (event.key === "Escape") setImageIsShown(false);
    };
 
    return (
@@ -37,6 +40,8 @@ const Projects = () => {
                            className={classes.box}
                            key={project.id}
                            onClick={() => setImageToShow(project.image)}
+                           tabIndex={0}
+                           onKeyDown={escapeKeyHandler}
                         >
                            <img
                               src={project.image}
