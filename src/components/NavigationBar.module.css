@@ -4,9 +4,12 @@
     align-items: end;
 
     text-align: center;
+    background: transparent;
 }
 
 .floating-nav {
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +21,9 @@
 
 
     background-color: var(--secondary-background);
-    box-shadow: 0px 0px 60px 0px var(--shadow);
+    box-shadow: var(--shadow);
+
+    z-index: 0;
 }
 
 .floating-nav a {
