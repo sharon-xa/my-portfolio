@@ -10,20 +10,43 @@
     background-color: var(--secondary-background);
     width: 60%;
     border-radius: 10px;
-
-    height: 14em;
+    padding: 1.5em;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 1em;
 
     box-shadow: var(--shadow);
+
 }
 
-.footer p {
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info p {
     font-size: var(--fs-300);
+}
+
+.mode {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.mode p {
+    font-size: var(--fs-400);
+}
+
+.myEmail {
+    text-decoration: underline;
+}
+
+.myEmail:hover {
+    text-decoration: none;
 }
 
 .switch {

@@ -1,16 +1,3 @@
-/*
-Footer
-    1. I need a licence 
-        🄯 Website code under (AGPL-3.0-only or another licence)· Website content under (CC-BY-SA-4.0 or another licence)
-
-    2. Some info about the website
-        Website Made With React · Hosted on Firebase DONE.
-
-    3. Some kind of button to toggle the dark mode and the glow mode DONE.
-
-    4. The ability to report bugs or anything else
-*/
-
 import classes from "./Footer.module.css";
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
@@ -88,15 +75,27 @@ const Footer = () => {
    return (
       <footer className={classes.container}>
          <div className={classes.footer}>
-            <p>
-               🄯 Website code under (AGPL-3.0-only or another licence) · Website
-               content under (CC-BY-SA-4.0 or another licence)
-            </p>
-            <p>This Website Made With React · Hosted on Firebase</p>
-            <MaterialUISwitch
-               onChange={toggleTheme}
-               defaultChecked={selectedTheme === "dark"}
-            />
+            <div className={classes.info}>
+               <p>🄯 Website code under (MIT License)</p>
+               <p>This Website Made With React · Hosted on Firebase</p>
+               <p>
+                  If you encountered any bug you can report it by sending me
+                  an&nbsp;
+                  <a
+                     href="mailto:ali93456@gmail.com?subject=A Bug Report"
+                     className={classes.myEmail}
+                  >
+                     Email
+                  </a>
+               </p>
+            </div>
+            <div className={classes.mode}>
+               <p>Change Mode</p>
+               <MaterialUISwitch
+                  onChange={toggleTheme}
+                  defaultChecked={selectedTheme === "dark"}
+               />
+            </div>
          </div>
       </footer>
    );
