@@ -30,11 +30,12 @@
 
     border: 8px solid var(--accent-color);
     box-shadow: var(--shadow);
-    transition: all .2s ease 0s;
+    transition: all .3s ease 0s;
 }
 
 .github-profile-img img:hover {
-    transform: scale(1.05);
+    box-shadow: var(--image-shadow-hover);
+    transform: scale(1.04);
 }
 
 .error-paragraph {
