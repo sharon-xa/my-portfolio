@@ -66,6 +66,7 @@ const Footer = () => {
    const selectedTheme = localStorage.getItem("selectedTheme");
 
    if (selectedTheme === "glow") setGlowMode();
+   else setDarkMode();
 
    const toggleTheme = (e) => {
       if (e.target.checked) setDarkMode();
