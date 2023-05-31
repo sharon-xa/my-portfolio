@@ -7,29 +7,30 @@ const AboutMe = () => {
          <section className={classes.section}>
             <InfoCard commandUsed="whoami" path="">
                <p>
-                  My name is Ali Jabar, I'm 21 years old, I live in Iraq and I
-                  study computer science in the university of technology, I've
-                  been learning programming for quite sometime now.
+                  My name is Ali Jabar, 21 years old, I live in Iraq and study
+                  computer science at the University of Technology, I've been
+                  learning programming for quite some time now.
                </p>
             </InfoCard>
 
             <InfoCard commandUsed="cat" path="/home/ali/Passion.txt">
                <p className={classes.passion}>
-                  I love programming and lots of other things too, such as
-                  music, movies and maybe some gaming from time to time.
+                  I love programming and lots of other things such as music,
+                  movies, and maybe some gaming from time to time.
                </p>
                <p className={classes.passion}>
-                  I'm very passionate when it comes to technology, I'm trying to
-                  get a job yet still wanna contribute to open source projects,
-                  cuz i love the open source community.
+                  I'm very passionate when it comes to technology, I am trying
+                  to get a job but still wanna contribute to open-source
+                  projects because I love the free and open-source community and
+                  their philosophy.
                </p>
                <p className={classes.passion}>
-                  I use linux as my operating system, EndeavourOS is my main
+                  I use Linux as my operating system, and EndeavourOS is my main
                   distro (I use ARCH BTW).
                </p>
                <p className={classes.passion}>
-                  I really love learning new things like Data Structure,
-                  Algorithms, Math and Ui/Ux design, and other things.
+                  I love learning new things like Data Structure, Algorithms,
+                  Math and Ui/Ux design, and anything that interests me.
                </p>
             </InfoCard>
 

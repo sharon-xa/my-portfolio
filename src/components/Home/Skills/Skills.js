@@ -22,7 +22,7 @@ const Skills = () => {
          <Skill folderTitle="CSS3" skillsFiles={cssSkills} />
          <Skill folderTitle="JavaScript" skillsFiles={javaScriptSkills} />
          <Skill
-            folderTitle="LibrariesAndFramworks"
+            folderTitle="LibrariesAndFrameworks"
             skillsFiles={librariesSkills}
          />
          <Skill folderTitle="OtherSkills" skillsFiles={otherSkills} />

@@ -11,7 +11,7 @@ const allMyProjects = [
       name: "Bankist website",
       image: BankistWebsite,
       description:
-         "A bank website to showcase the services that the bank is providing for the costumers and other things.",
+         "A website showcases the services that the bank is providing for the customers.",
       codeLink: "https://github.com/sharonye0/BankistWebsite",
       demoLink: "https://bankist-website-testing.netlify.app/",
    },
@@ -20,7 +20,7 @@ const allMyProjects = [
       name: "Bankist application",
       image: Bankist,
       description:
-         "This is a banking application you can use it to deposite money, send money or ask for a loan.",
+         "A banking application you can use it to deposit money, Send money or ask for a loan.",
       codeLink: "https://github.com/sharonye0/Bankist",
       demoLink: "https://bankist-application-testing.netlify.app/",
    },
@@ -29,7 +29,7 @@ const allMyProjects = [
       name: "Mapty",
       image: Mapty,
       description:
-         "A running and cycling application for people who love running, It's a workout planner, you can open the app choose a location and set some info about the workout then pin that workout to the map.",
+         "A running and cycling application for people who love running, It’s a workout planner, You can open the app, Choose a location and set some info about the workout pin that workout to the map.",
       codeLink: "https://github.com/sharonye0/Mapty",
       demoLink: "https://mapty-testing.netlify.app/",
    },
@@ -38,7 +38,7 @@ const allMyProjects = [
       name: "Forkify",
       image: Forkify,
       description:
-         "You can use this website to get a recipe about any kind of food you want, and if you liked the recipe you can bookmark it.",
+         "You can use this website to get a recipe for any kind of food you want, and if you like the recipe, You can bookmark it.",
       codeLink: "https://github.com/sharonye0/Forkify",
       demoLink: "https://forkify-application-testing.netlify.app/",
    },
@@ -47,7 +47,7 @@ const allMyProjects = [
       name: "Food Order App",
       image: FoodOrder,
       description:
-         "A simple application build with react, you can use this app to add food to your cart and then order the food you added to the cart.",
+         "A simple application built with React, You can use this app to add food to your cart and then order the food you added to the cart.",
       codeLink: "https://github.com/sharonye0/food-order-app",
       demoLink: "https://food-order-app-testing.netlify.app/",
    },
@@ -56,7 +56,7 @@ const allMyProjects = [
       name: "ReduxStore",
       image: ReduxStore,
       description:
-         "An application to purchase phones, this application is build using react, redux and connected to firebase simple database.",
+         "An application to purchase phones This application is built with React and Redux, and connected to a simple firebase database.",
       codeLink: "https://github.com/sharonye0/ReduxStore",
       demoLink: "https://redux-store-testing.netlify.app/",
    },
