@@ -1,6 +1,6 @@
 import classes from "./Projects.module.css";
 import InfoCard from "../UI/InfoCard";
-import allMyProjects from "./projectsArray";
+import allMyProjects from "../../content/projectsData";
 import { useState } from "react";
 import Modal from "../UI/Modal";
 

@@ -7,7 +7,7 @@ import {
    javaScriptSkills,
    librariesSkills,
    otherSkills,
-} from "./skillsData";
+} from "../../../content/skillsData";
 
 const ICON_SIZE = 30;
 const Skills = () => {

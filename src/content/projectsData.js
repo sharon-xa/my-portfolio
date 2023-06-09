@@ -1,11 +1,11 @@
-import Bankist from "../../assets/images/Bankist_2.webp";
-import BankistWebsite from "../../assets/images/Bankist_website_2.webp";
-import Mapty from "../../assets/images/Mapty_1.webp";
-import Forkify from "../../assets/images/Forkify_2.webp";
-import FoodOrder from "../../assets/images/FoodOrderApp_1.webp";
-import ReduxStore from "../../assets/images/Redux_store_1.webp";
+import Bankist from "../assets/images/Bankist_2.webp";
+import BankistWebsite from "../assets/images/Bankist_website_2.webp";
+import Mapty from "../assets/images/Mapty_1.webp";
+import Forkify from "../assets/images/Forkify_2.webp";
+import FoodOrder from "../assets/images/FoodOrderApp_1.webp";
+import ReduxStore from "../assets/images/Redux_store_1.webp";
 
-const allMyProjects = [
+const myProjects = [
    {
       id: "p1",
       name: "Bankist website",
@@ -62,4 +62,4 @@ const allMyProjects = [
    },
 ];
 
-export default allMyProjects;
+export default myProjects;
