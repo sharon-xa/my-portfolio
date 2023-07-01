@@ -13,32 +13,32 @@
 
 .section a {
     text-decoration: underline;
-    text-underline-offset: 12px;
+    text-underline-offset: 40%;
     animation: out 250ms ease 0s;
 }
 
 .section a:hover {
-    text-underline-offset: 5px;
+    text-underline-offset: 10%;
     animation: in 250ms ease 0s;
 }
 
 @keyframes in {
     0% {
-        text-underline-offset: 12px;
+        text-underline-offset: 40%;
     }
 
     100% {
-        text-underline-offset: 5px;
+        text-underline-offset: 10%;
     }
 }
 
 @keyframes out {
     0% {
-        text-underline-offset: 5px;
+        text-underline-offset: 10%;
     }
 
     100% {
-        text-underline-offset: 12px;
+        text-underline-offset: 40%;
     }
 }
 
