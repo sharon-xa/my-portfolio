@@ -8,7 +8,8 @@ import { useEffect } from "react";
 
 function App() {
    useEffect(() => {
-      localStorage.setItem("selectedTheme", "dark");
+      if (!localStorage.getItem("selectedTheme"))
+         localStorage.setItem("selectedTheme", "dark");
    }, []);
    const router = createBrowserRouter([
       {
