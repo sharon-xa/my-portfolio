@@ -6,13 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 
-    height: 380px;
     width: auto;
-
     margin-bottom: 40px;
-
 }
 
 .github-profile-img h2 {

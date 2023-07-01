@@ -68,7 +68,7 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
-  transition: background-color .5s ease 0s;
+  transition: background-color .35s ease 0s;
 }
 
 html {

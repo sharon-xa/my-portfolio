@@ -9,22 +9,29 @@
 }
 
 .modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 14px;
+    width: 99dvw;
+    height: 99dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    z-index: 30;
-    animation: slide-down 300ms ease-out forwards;
 }
 
+.content {
+    position: fixed;
+    width: 70%;
+
+    z-index: 30;
+    animation: slide-down 400ms ease-out forwards;
+}
 
 .modal img {
     width: 100%;
+    border: .8em solid #888;
+    border-radius: 10px;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,11 +43,11 @@
 @keyframes slide-down {
     from {
         opacity: 0;
-        transform: translate(-50%, -60%);
+        transform: translateY(-10%);
     }
 
     to {
         opacity: 1;
-        transform: translate(-50%, -50%);
+        transform: translateY(0%);
     }
 }
