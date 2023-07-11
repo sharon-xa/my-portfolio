@@ -66,39 +66,39 @@ export const javaScriptSkills = [
 
 export const librariesSkills = [
    { id: 12, fileName: "React.js", icon: <FaReact size={NESTED_ICON_SIZE} /> },
-   { id: 1, fileName: "Redux.js", icon: <SiRedux size={NESTED_ICON_SIZE} /> },
+   { id: 13, fileName: "Redux.js", icon: <SiRedux size={NESTED_ICON_SIZE} /> },
    {
-      id: 13,
+      id: 14,
       fileName: "ReactRouter.js",
       icon: <SiReactrouter size={NESTED_ICON_SIZE} />,
    },
    {
-      id: 14,
+      id: 15,
       fileName: "Bootstrap.css",
       icon: <FaBootstrap size={NESTED_ICON_SIZE} />,
    },
-   { id: 15, fileName: "Sass.scss", icon: <DiSass size={NESTED_ICON_SIZE} /> },
+   { id: 16, fileName: "Sass.scss", icon: <DiSass size={NESTED_ICON_SIZE} /> },
 ];
 
 export const otherSkills = [
-   { id: 16, fileName: "Git", icon: <BsGit size={NESTED_ICON_SIZE} /> },
+   { id: 17, fileName: "Git", icon: <BsGit size={NESTED_ICON_SIZE} /> },
    {
-      id: 17,
+      id: 18,
       fileName: "GitHub",
       icon: <AiFillGithub size={NESTED_ICON_SIZE} />,
    },
    {
-      id: 18,
+      id: 19,
       fileName: "CommandLine",
       icon: <GoTerminal size={NESTED_ICON_SIZE} />,
    },
    {
-      id: 19,
+      id: 20,
       fileName: "ProblemSolving",
       icon: <HiOutlineLightBulb size={NESTED_ICON_SIZE} />,
    },
    {
-      id: 20,
+      id: 21,
       fileName: "Learning",
       icon: <SiBookstack size={NESTED_ICON_SIZE} />,
    },
