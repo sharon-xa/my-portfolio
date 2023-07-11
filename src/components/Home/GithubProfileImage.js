@@ -1,7 +1,7 @@
-import React from "react";
 import classes from "./GithubProfileImage.module.css";
+import ProfilePic from "../../assets/images/ProfilePic.webp";
 
-const GithubProfileImage = ({ imageSrc }) => {
+const GithubProfileImage = () => {
    return (
       <div className={classes["github-profile-img"]}>
          <h2>Ali Jabar</h2>
@@ -10,7 +10,7 @@ const GithubProfileImage = ({ imageSrc }) => {
             target="_blank"
             rel="noreferrer"
          >
-            <img src={imageSrc} alt="my github profile pic" />
+            <img src={ProfilePic} alt="my github profile pic" />
          </a>
       </div>
    );

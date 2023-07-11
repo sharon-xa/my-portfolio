@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./pages/Root";
-import HomePage, { loader } from "./pages/Home";
+import HomePage from "./pages/Home";
 import ProjectsPage from "./pages/ProjectsPage";
 import About from "./pages/About";
 import Error from "./pages/Error";
@@ -17,7 +17,7 @@ function App() {
          element: <RootLayout />,
          errorElement: <Error />,
          children: [
-            { index: true, element: <HomePage />, loader: loader },
+            { index: true, element: <HomePage /> },
             {
                path: "projects",
                element: <ProjectsPage />,
