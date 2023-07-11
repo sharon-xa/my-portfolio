@@ -4,11 +4,11 @@ import GithubProfileImage from "./GithubProfileImage";
 import InfoCard from "../UI/InfoCard";
 import Skills from "./Skills/Skills";
 
-const Main = ({ imageSrc }) => {
+const Main = () => {
    return (
       <main className={classes["home-layout"]}>
          <section className={classes.section}>
-            <GithubProfileImage imageSrc={imageSrc} />
+            <GithubProfileImage />
 
             <InfoCard commandUsed="cat" path="/etc/motd">
                <p className={classes.welcome}>Hey, welcome to my portfolio !</p>
@@ -18,7 +18,7 @@ const Main = ({ imageSrc }) => {
                </p>
             </InfoCard>
 
-            <InfoCard commandUsed="ls -l" path="/home/ali/skills">
+            <InfoCard commandUsed="tree" path="/home/ali/skills">
                <Skills />
             </InfoCard>
 
