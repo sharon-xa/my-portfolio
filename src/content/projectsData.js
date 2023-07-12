@@ -29,7 +29,7 @@ const myProjects = [
       name: "Mapty",
       image: Mapty,
       description:
-         "A running and cycling application for people who love running, It’s a workout planner, You can open the app, Choose a location and set some info about the workout pin that workout to the map.",
+         "A running and cycling application for people who love running, It's a workout planner, You can open the app, Choose a location and set some info about the workout pin that workout to the map.",
       codeLink: "https://github.com/sharonye0/Mapty",
       demoLink: "https://mapty-testing.netlify.app/",
    },
@@ -51,6 +51,7 @@ const myProjects = [
       codeLink: "https://github.com/sharonye0/food-order-app",
       demoLink: "https://food-order-app-testing.netlify.app/",
    },
+   // delete this redux store BS and add your tic tac toe
    {
       id: "p6",
       name: "ReduxStore",
