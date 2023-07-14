@@ -1,5 +1,5 @@
 import classes from "./GithubProfileImage.module.css";
-import ProfilePic from "../../assets/images/ProfilePic.webp";
+import ProfilePic from "../../assets/images/profile-picture.webp";
 
 const GithubProfileImage = () => {
    return (

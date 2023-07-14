@@ -1,8 +1,10 @@
-import classes from "./Projects.module.css";
+import { useState } from "react";
+
 import InfoCard from "../UI/InfoCard";
 import allMyProjects from "../../content/projectsData";
-import { useState } from "react";
 import Modal from "../UI/Modal";
+
+import classes from "./Projects.module.css";
 
 const Projects = () => {
    const [imageIsShown, setImageIsShown] = useState(false);
