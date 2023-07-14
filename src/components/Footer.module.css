@@ -78,7 +78,7 @@
     }
 
     .footer {
-        width: 60%;
+        width: 90%;
 
         flex-direction: column;
         gap: 2em;
@@ -89,6 +89,19 @@
     }
 }
 
+@media only screen and (min-width: 960px) {
+    .footer {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer {
+        width: 70%;
+    }
+
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1450px) {
     .container {
@@ -96,6 +109,7 @@
     }
 
     .footer {
+        width: 60%;
         flex-direction: row;
         gap: 2em;
     }
