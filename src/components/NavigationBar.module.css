@@ -9,7 +9,7 @@
 .floatingNav {
     position: fixed;
     top: 0px;
-    opacity: 0.92;
+    opacity: var(--opacity);
     z-index: 101;
 
     display: flex;
