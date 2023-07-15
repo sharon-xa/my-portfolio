@@ -1,6 +1,9 @@
-import classes from "./Footer.module.css";
+import { useState } from "react";
+
 import { styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
+
+import classes from "./Footer.module.css";
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => {
    return {
@@ -53,6 +56,10 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => {
 });
 
 const Footer = () => {
+   const selectedTheme = localStorage.getItem("selectedTheme");
+
+   const [theme, setTheme] = useState(selectedTheme);
+
    const setDarkMode = () => {
       document.querySelector("body").setAttribute("data-theme", "dark");
       localStorage.setItem("selectedTheme", "dark");
@@ -63,14 +70,20 @@ const Footer = () => {
       localStorage.setItem("selectedTheme", "glow");
    };
 
-   const selectedTheme = localStorage.getItem("selectedTheme");
-
-   if (selectedTheme === "glow") setGlowMode();
-   else setDarkMode();
+   if (selectedTheme === "glow") {
+      setGlowMode();
+   } else {
+      setDarkMode("dark");
+   }
 
    const toggleTheme = (e) => {
-      if (e.target.checked) setDarkMode();
-      else setGlowMode();
+      if (e.target.checked) {
+         setDarkMode();
+         setTheme("dark");
+      } else {
+         setGlowMode();
+         setTheme("glow");
+      }
    };
 
    return (
@@ -91,7 +104,7 @@ const Footer = () => {
                </p>
             </div>
             <div className={classes.mode}>
-               <p>Change Mode</p>
+               <p> Switch to {theme === "dark" ? "glow" : "dark"}</p>
                <MaterialUISwitch
                   onChange={toggleTheme}
                   defaultChecked={selectedTheme === "dark"}
