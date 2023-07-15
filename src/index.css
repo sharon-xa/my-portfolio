@@ -25,7 +25,8 @@
 
   --image-shadow-hover: 0px 0px 50px 0px rgba(19, 19, 19, 0.884);
 
-
+  /* Navbar opacity */
+  --opacity: 0.91;
 
   /* font sizes */
   --fs-100: 1.2rem;
@@ -42,7 +43,7 @@
 
 [data-theme="glow"] {
   --background: #000000;
-  --secondary-background: #5a5a5a4f;
+  --secondary-background: #1c1c1c;
   --accent-color: #3f009c;
   --dark-accent: #3b078a;
   --white: #cfcfcf;
@@ -50,7 +51,6 @@
 
   /* shadow */
   --shadow: 0px 0px 25px 0px rgba(133, 133, 133, 0.753);
-
 
   --shadow-box: 0px 0px 10px 0px rgba(133, 133, 133, 0.85);
   --shadow-box-hover: 0px 0px 25px 0px rgba(189, 189, 189, 0.85);
