@@ -1,45 +1,49 @@
-.nav-container {
+.navContainer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 
     text-align: center;
     background: transparent;
 }
 
-.floating-nav {
-
+.floatingNav {
+    position: fixed;
+    top: 0px;
+    opacity: 0.92;
+    z-index: 101;
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1.3em;
+    gap: 1em;
 
-    width: 550px;
-    margin-top: 1.2em;
-    border-radius: 18px;
+    min-width: 550px;
 
+    /* top and bottom 2em */
+    padding: 0em 2em;
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 
     background-color: var(--secondary-background);
     box-shadow: var(--shadow);
-
-    z-index: 0;
 }
 
-.floating-nav a {
+.floatingNav a {
     font-size: var(--fs-300);
-    padding: 1em;
-    margin: 0.8em 0;
+    padding: .8em 0;
+    margin: 0.6em 0;
     border-radius: 10px;
 
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
 
+    width: 100%;
+
     transition: 200ms background-color;
 }
 
-.floating-nav a:hover {
+.floatingNav a:hover {
     background-color: var(--accent-color);
 }
 
@@ -48,72 +52,70 @@
     font-weight: 800;
 }
 
+.transition {
+    animation: navFloating .3s ease-in 0s forwards;
+}
+
+.transitionBack {
+    animation: navNotFloating .3s ease-out 0s forwards;
+}
+
+@keyframes navFloating {
+    0% {
+        top: 0px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+
+    }
+
+    100% {
+        top: 10px;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+    }
+}
+
+@keyframes navNotFloating {
+
+    /* 
+        here we shouldn't start at 14px, cuz this class can be applied before the previous animation ends
+        we sould start whereever the last animation ends (couldn't end)
+        to check this bug scroll fast up and down and watch the navbar closely
+    */
+    0% {
+        top: 10px;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+    }
+
+    100% {
+        top: 0px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .nav-container {
+    .floatingNav {
+        min-width: 100%;
+        border-radius: 0;
+        padding: 0 .5em;
+        gap: 1em;
+    }
+
+    .floatingNav a {
+        font-size: var(--fs-100);
+        padding: 1em 0em;
         width: 100%;
     }
 
-    .floating-nav {
-        gap: .3em;
-
-        width: 95%;
-        padding: 0 1em;
-        margin-top: .6em;
-        border-radius: 10px;
+    .transition {
+        animation: none;
     }
 
-    .floating-nav a {
-        font-size: var(--fs-100);
-
-        width: 33%;
-        padding: 1em 0;
-        border-radius: 6px;
-
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .floating-nav {
-        gap: .3em;
-
-        width: 70%;
-        padding: 0 1em;
-        margin-top: 1em;
-        border-radius: 16px;
-    }
-
-    .floating-nav a {
-        font-size: var(--fs-200);
-
-        width: 33%;
-        padding: 1.1em 0;
-        border-radius: 10px;
-
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 830px) {} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .floating-nav {
-        gap: 1.3em;
-
-        width: 550px;
-        margin-top: 1.2em;
-        border-radius: 18px;
-
-    }
-
-    .floating-nav a {
-        font-size: var(--fs-300);
-        width: 150px;
-        padding: 1em;
-        margin: 0.8em 0;
-        border-radius: 10px;
+    .transitionBack {
+        animation: none;
     }
 }

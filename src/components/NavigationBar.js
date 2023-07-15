@@ -1,11 +1,25 @@
 import { NavLink } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import classes from "./NavigationBar.module.css";
 
 const NavigationBar = () => {
+   const [fixed, setFixed] = useState(false);
+
+   window.addEventListener("scroll", (e) => {
+      if (window.scrollY >= 90) {
+         setFixed(true);
+      } else {
+         setFixed(false);
+      }
+   });
+
    return (
-      <nav className={classes["nav-container"]}>
-         <nav className={classes["floating-nav"]}>
+      <nav className={classes.navContainer}>
+         <nav
+            className={`${classes.floatingNav} ${
+               fixed ? classes.transition : classes.transitionBack
+            }`}
+         >
             <NavLink
                to="/"
                className={({ isActive }) =>
