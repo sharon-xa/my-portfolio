@@ -11,15 +11,21 @@ const Main = () => {
             <GithubProfileImage />
 
             <InfoCard commandUsed="cat" path="/etc/motd">
-               <p className={classes.welcome}>Hey, welcome to my portfolio !</p>
-               <p>
-                  My name is Ali Jabar, I'm a front-end web developer a computer
-                  science student, almost a graduate.
-               </p>
+               <div className={classes.padding}>
+                  <p className={classes.welcome}>
+                     Hey, welcome to my portfolio !
+                  </p>
+                  <p>
+                     My name is Ali Jabar, I'm a front-end web developer a
+                     computer science student, almost a graduate.
+                  </p>
+               </div>
             </InfoCard>
 
             <InfoCard commandUsed="tree" path="/home/ali/skills">
-               <Skills />
+               <div className={classes.padding}>
+                  <Skills />
+               </div>
             </InfoCard>
 
             <InfoCard commandUsed="exit" path=""></InfoCard>

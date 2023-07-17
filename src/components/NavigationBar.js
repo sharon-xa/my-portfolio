@@ -6,7 +6,7 @@ const NavigationBar = () => {
    const [fixed, setFixed] = useState(false);
 
    window.addEventListener("scroll", (e) => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 100) {
          setFixed(true);
       } else {
          setFixed(false);

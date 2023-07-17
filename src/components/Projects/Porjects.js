@@ -30,9 +30,7 @@ const Projects = () => {
             </Modal>
          )}
          <div className={classes.wrapper}>
-            <div className={classes.headerBox}>
-               <InfoCard commandUsed="ls" path="/home/ali/projects"></InfoCard>
-            </div>
+            <InfoCard commandUsed="ls" path="/home/ali/projects"></InfoCard>
             <section className={classes.container}>
                {allMyProjects.map((project) => {
                   if (!project.image) return null;
@@ -76,9 +74,8 @@ const Projects = () => {
                      );
                })}
             </section>
-            <div className={classes.footerBox}>
-               <InfoCard commandUsed="exit" path=""></InfoCard>
-            </div>
+
+            <InfoCard commandUsed="exit" path=""></InfoCard>
          </div>
       </main>
    );

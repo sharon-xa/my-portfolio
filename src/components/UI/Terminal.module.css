@@ -2,5 +2,13 @@
     font-family: monospace;
     font-size: var(--fs-700);
     color: var(--terminal);
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .terminal-like-info {
+        padding: 0 1em;
+    }
 }

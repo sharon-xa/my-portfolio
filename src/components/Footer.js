@@ -90,7 +90,7 @@ const Footer = () => {
       <footer className={classes.container}>
          <div className={classes.footer}>
             <div className={classes.info}>
-               <p>🄯 Website code under (MIT License)</p>
+               <p>&copy; Website code under (MIT License)</p>
                <p>This Website Made With React · Hosted on Firebase</p>
                <p>
                   If you encounter any bug, you can report it by sending me

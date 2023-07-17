@@ -51,19 +51,16 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
-        margin-bottom: .8em;
+        margin: 0em;
     }
 
     .footer {
-        width: 94%;
+        width: 100%;
         padding: 1.4em;
+        border-radius: 0;
 
         flex-direction: column;
-        gap: 2em;
-    }
-
-    .info {
-        gap: .8em;
+        gap: 1.5em;
     }
 
     .info p {
@@ -89,7 +86,7 @@
     }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 950px) {
     .footer {
         flex-direction: row;
     }

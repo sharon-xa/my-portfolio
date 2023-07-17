@@ -1,13 +1,11 @@
 .section {
     width: 50%;
 
-    margin-top: 5em;
+    margin-top: 4em;
     margin-bottom: 3.125em;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     gap: 2.5em;
 }
 
@@ -20,6 +18,10 @@
 .section a:hover {
     text-underline-offset: 12%;
     animation: in 300ms ease 0s;
+}
+
+.section p {
+    padding: 0 1em;
 }
 
 @keyframes in {
@@ -69,8 +71,8 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .section {
-        width: 85%;
-        margin-top: 4em;
+        width: 75%;
+        margin-top: 5em;
     }
 
     .section code {
@@ -86,7 +88,6 @@
 @media only screen and (min-width: 830px) {
     .section {
         width: 75%;
-        margin-top: 5em;
     }
 
     .section code {

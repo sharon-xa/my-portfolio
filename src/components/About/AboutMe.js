@@ -26,7 +26,7 @@ const AboutMe = () => {
                </p>
                <p className={classes.passion}>
                   I use Linux as my operating system, and EndeavourOS is my main
-                  distro (I use ARCH BTW).
+                  distro, Based on ARCH BTW.
                </p>
                <p className={classes.passion}>
                   I love learning new things like Data Structure, Algorithms,

@@ -69,6 +69,7 @@
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
   transition: background-color .35s ease 0s;
+  /* outline: solid 2px #41e421; */
 }
 
 html {
@@ -93,7 +94,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 

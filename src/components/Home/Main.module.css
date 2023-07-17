@@ -5,9 +5,7 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.2em;
+    gap: 2em;
 }
 
 .section .welcome {
@@ -15,6 +13,10 @@
     font-weight: 700;
 
     animation: textGlowing 2s linear 0s infinite alternate;
+}
+
+.padding {
+    padding: 0 1.8em;
 }
 
 @keyframes textGlowing {
@@ -70,8 +72,8 @@
 @media only screen and (min-width: 820px) {
     .section {
         width: 75%;
-        margin-top: 80px;
-        margin-bottom: 50px;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
 
     .section p {
