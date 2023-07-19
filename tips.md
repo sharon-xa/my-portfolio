@@ -2,9 +2,9 @@ NOTE: The projects that you should be showing to the employer:
 
 -  First don't put too much projects in your portfolio,
    6 is a good number of projects, choose your best projects.
--  Second try to build projects by your self that are unique and beautiful
+-  Second try to build projects by yourself that are unique and beautiful
    cuz employers see alot of portfolios everyday
-   if you use a project form a course the employer probably have seen that project a 1000 time already,
+   if you use a project from a course the employer probably have seen that project a 1000 time already,
    so try building your own projects and don't be goofy (like me).
 -  Third your projects should be diverse as the following:
 
