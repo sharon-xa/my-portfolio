@@ -97,6 +97,33 @@ main {
   margin-top: 8rem;
 }
 
+body::-webkit-scrollbar {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-background);
+  border-radius: 50em;
+  margin-block: .6em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border: .25em solid var(--secondary-background);
+  border-radius: 50em;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #a65deb;
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: var(--accent-color) var(--secondary-background);
+    scrollbar-width: auto;
+  }
+}
 
 /*
 
