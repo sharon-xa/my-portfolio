@@ -6,7 +6,7 @@ const GithubProfileImage = () => {
       <div className={classes["github-profile-img"]}>
          <h2>Ali Jabar</h2>
          <a
-            href="https://github.com/sharonye0"
+            href="https://github.com/sharon-xa"
             target="_blank"
             rel="noreferrer"
          >

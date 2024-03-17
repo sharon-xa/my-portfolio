@@ -38,7 +38,7 @@ const AboutMe = () => {
                <div className={classes.socials}>
                   <p>
                      <a
-                        href="https://www.github.com/sharonye0"
+                        href="https://www.github.com/sharon-xa"
                         target="_blank"
                         rel="noreferrer"
                      >
